@@ -49,4 +49,25 @@ An all-in-one Android application for gym members and admins. FitHit offers feat
 ---
 
 ## 🔐 Admin Login
+Username: admin
+email: fithitchd057@gmail.com
+Password: 24MCA20057
+
+
+> Admin can access full user data, update records, and send notifications.
+
+---
+
+## 🔮 Future Enhancements
+
+- Google Sign-In integration for user authentication
+- Notifications for upcoming reservations or expiring memberships
+- Cloud Firestore migration for scalability
+- Graphs & Analytics for admin insights
+- QR code check-in for attendance
+
+---
+
+## 📸 Screenshots
+
 
