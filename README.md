@@ -17,7 +17,7 @@ An all-in-one Android application for gym members and admins. FitHit offers feat
 ---
 
 ### 🛠️ Admin Side
-- **Login with Credentials**: `admin` / `admin123`
+- **Login with Credentials**: `fithitchd057@gmail.com` / `24MCA20057`
 - **User Management**: View, edit, delete, or reset user data
 - **Attendance Control**: Mark users as present/absent and send SMS notifications
 - **Data Dashboard**: Table view of all users with membership, contact, and activity data
@@ -82,6 +82,6 @@ This project is open-source and free to use under the MIT License.
 
 **Abhinash (24MCA20057)**  
 Master of Computer Applications  
-[Your University Name Here]
+Chandigarh University
 
 ---
