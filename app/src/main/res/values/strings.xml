@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FITHIT GYM</string>
+    <string name="welcome">Welcome</string>
+    <string name="signin">Sign in</string>
+    <string name="username">User Name</string>
+    <string name="signup">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Gym_Facilities">Gym Facilities</string>
+    <string name="Gym_Subscription">Gym Subscription</string>
+    <string name="Gym_Trainers">Gym Trainers</string>
+    <string name="Gym_Timings">Gym Timings</string>
+    <string name="Contact">Contact Us</string>
+    <string name="profile">profile\n</string>
+    <string name="update_profile">Update Profile\n</string>
+    <string name="logout">Logout\n</string>
+    <string name="membership_expiry">Membership Expiry</string>
+    <string name="membership_type">Membership type\n</string>
+    <string name="phone">Phone</string>
+    <string name="change_photo">Change Photo\n</string>
+    <string name="back">Back</string>
+    <string name="my_profile">My Profile</string>
+    <string name="locker_room_title">Locker Room</string>
+    <string name="locker_availability">Locker Availability</string>
+    <string name="book_locker">Book a Locker</string>
+    <string name="locker_map">Locker Map</string>
+    <string name="locker_number_hint">Locker Number</string>
+    <string name="duration_hint">Duration (hours)</string>
+    <string name="book_button">Book Locker</string>
+    <string name="locker_map_description">Locker room map layout</string>
+    <string name="parking_availability_title">Parking Availability</string>
+    <string name="parking_status">Current Parking Status</string>
+    <string name="parking_map">Parking Lot Map</string>
+    <string name="view_full_map">View Full Map</string>
+    <string name="reserve_parking">Reserve Parking</string>
+    <string name="parking_type_hint">Parking Type</string>
+    <string name="vehicle_number_hint">Vehicle Number</string>
+    <string name="reserve_button">Reserve Parking Spot</string>
+    <string name="parking_map_description">Parking lot layout</string>
+    <string name="parking_lot_map">Parking Lot\n</string>
+
+
+</resources>

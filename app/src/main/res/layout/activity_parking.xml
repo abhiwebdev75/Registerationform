@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="20dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parking Availability"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Status Overview -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="16dp"
+            android:gravity="center">
+
+            <!-- Available -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="8dp"
+                android:layout_marginEnd="4dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/parking"
+                    android:contentDescription="Available" />
+
+                <TextView
+                    android:id="@+id/availableSlotsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 Available"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+            <!-- Occupied -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="4dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/parking"
+                    android:contentDescription="Occupied" />
+
+                <TextView
+                    android:id="@+id/occupiedSlotsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 Occupied"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+            <!-- Total -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="8dp"
+                android:layout_marginStart="4dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/parking"
+                    android:contentDescription="Total" />
+
+                <TextView
+                    android:id="@+id/totalSlotsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 Total"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Parking Map -->
+        <ImageView
+            android:id="@+id/parkingMapImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:background="@color/white"
+            android:src="@drawable/parking_plot"
+            android:contentDescription="Parking Map"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Form Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F2F6F6"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/vehicleNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehicle Number"
+                android:inputType="text"
+                android:padding="12dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:layout_marginBottom="12dp" />
+
+            <Spinner
+                android:id="@+id/parkingTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:minHeight="48dp"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/parkingDateInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Date"
+                android:focusable="false"
+                android:inputType="none"
+                android:padding="12dp"
+                android:backgroundTint="@color/white"
+                android:textColorHint="@color/gray"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/parkingTimeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Time"
+                android:focusable="false"
+                android:inputType="none"
+                android:padding="12dp"
+                android:backgroundTint="@color/white"
+                android:textColorHint="@color/gray"
+                android:layout_marginBottom="12dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/parkingDurationInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Duration"
+                android:inputType="none"
+                android:padding="12dp"
+                android:backgroundTint="@color/white"
+                android:textColorHint="@color/gray"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/reserveParkingButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reserve Parking Slot"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/primary_color"
+                android:minHeight="48dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
