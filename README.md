@@ -71,3 +71,17 @@ Password: 24MCA20057
 ## 📸 Screenshots
 
 
+
+## 📄 License
+
+This project is open-source and free to use under the MIT License.
+
+---
+
+## 👨‍💻 Developed By
+
+**Abhinash (24MCA20057)**  
+Master of Computer Applications  
+[Your University Name Here]
+
+---
