@@ -85,3 +85,6 @@ Master of Computer Applications
 Chandigarh University
 
 ---
+## 📦 Installation
+
+[![Download APK](https://img.shields.io/badge/Download-FitHitApp.apk-blue?logo=android)](https://github.com/abhiwebdev75/Registerationform/releases/download/v1.0.0/FitHit.apk)
